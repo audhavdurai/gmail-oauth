@@ -1,19 +1,22 @@
 # gmail-oauth
 
-Setting Up the Flask Site with Google OAuth2
-1. Installation:
+### Setting Up the Flask Site with Google OAuth2
+
+#### 1. Installation:
+
 First, ensure you have Python installed. Then follow these steps:
 
-Clone the repository containing the Flask site code.
+- **Clone the repository** containing the Flask site code.
+  
+  ```bash
+  git clone <repository_URL>
+  cd <repository_name>
+  
+- Install required packages listed in the requirements.txt file using pip.
+  ```bash
+  pip install -r requirements.txt
 
-git clone <repository_URL>
-cd <repository_name>
-
-Install the required packages listed in the requirements.txt file using pip.
-
-pip install -r requirements.txt
-
-2. Getting API Keys from Google:
+#### 2. Getting API Keys from Google:
 Go to the Google Developers Console:
 
 Visit Google Developers Console.
@@ -30,19 +33,17 @@ Get Client ID and Secret:
 After creating credentials, you'll receive a Client ID and Client Secret.
 Copy these values to a safe place as they'll be used in your Flask app.
 
-3. Configuration:
+#### 3. Configuration:
 Configure the Flask App:
 
-Open the .env file and add the obtained Client ID and Client Secret:
+Open the .env file and add the obtained Client ID and Client Secret
 
-4. Running the Flask App:
+#### 4. Running the Flask App:
 Run the Flask App:
 
-Execute the following command to start the Flask application.
+Execute the app.py file to start the Flask application.
 
-python app.py
-
-Access the Site:
+#### 5. Access the site:
 
 Go to http://localhost:5000 or the URL you specified.
 You should see the site up and running.
